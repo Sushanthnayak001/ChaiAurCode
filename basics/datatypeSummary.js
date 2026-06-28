@@ -19,15 +19,31 @@
 // const anotherid = Symbol('123')
 // console.log(id === anotherid)
 
-const heros = ["Shakthiman", "Naagraj" , "Doga"];
+// const heros = ["Shakthiman", "Naagraj" , "Doga"];
 
-let myobj = {
-    name: "Sushanth Nayak",
-    age : 22,
+// let myobj = {
+//     name: "Sushanth Nayak",
+//     age : 22,
+// }
+
+// const myfunction = function(){
+//     console.log("Hellow world"); 
+// }
+
+// console.log(typeof myfunction)
+
+// ----------------memeory--------------------
+
+// Stack (Primitive, Copy) , Heap(Non primitive, refernce)
+
+let userone =  {
+   name : "Tharun C R",
+   upi : "abc.UPI.com",
 }
 
-const myfunction = function(){
-    console.log("Hellow world"); 
-}
+let usertwo = userone;
 
-console.log(typeof myfunction)
+usertwo.name = "hemanth";
+
+console.log(userone.name)
+ 
